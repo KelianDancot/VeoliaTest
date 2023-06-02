@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VeoliaTest</title>
 
+  <!-- Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <!-- Icones Boostrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <!-- CSS -->
@@ -17,8 +19,8 @@
 
 <body>
   <header>
+    <!-- Navbar -->
     <nav class="box-nav">
-
       <div class="nav-links">
         <img src="img/logo.png" width="190px" height="50px" class="d-inline-block align-top" alt="">
         <form class="searchbar" role="search">
@@ -28,12 +30,43 @@
         <ul class="nav-elements">
           <li><i class="bi bi-house" id="red"></i><a id="red">Accueil</a></li>
           <li><i class="bi bi-box-seam"></i><a>Produits</a></li>
-          <li><i class="bi bi-receipt"></i></i><a>Documentation</a></li>
+          <li><i class="bi bi-receipt"></i><a>Documentation</a></li>
           <li><i class="bi bi-person-circle"></i><a>Compte</a></li>
         </ul>
       </div>
     </nav>
   </header>
+
+  <!-- Carrousel -->
+  <id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/img-carrousel1.png" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="title">Ad tempus ex pacto</h5>
+          <p class="description">Vita est illis semper in fuga uxoresque mercenariae conductae.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/img-carrousel1.png" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="title">Ad tempus ex pacto</h5>
+          <p class="description">Vita est illis semper in fuga uxoresque mercenariae conductae.</p>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
   <!-- Script Boostrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
