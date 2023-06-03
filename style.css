@@ -384,8 +384,76 @@
 
 /* Vague */
 
+.vague-container {
+    background-image: url("svg/wave.svg");
+    height: 414px;
+    width: 15360px;
+}
+
 .vague {
     width: 100%;
     position: absolute;
     display: block;
+}
+
+/* Footer */
+.footer-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 16vh;
+    padding-left: 16vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #212529;
+    
+}
+
+.footer-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-list-box { 
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.footer-list {
+    list-style: none;
+    padding-left: 0;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #666666;
+}
+
+.footer-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.footer-copyright {
+    padding-top: 2rem;
+    margin-left: 130px;
+    margin-right: 130px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #6C757D;
 }
