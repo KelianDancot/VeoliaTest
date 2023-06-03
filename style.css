@@ -382,21 +382,12 @@
     border-radius: 0px;
 }
 
-/* Vague */
-
-.vague-container {
-    background-image: url("svg/wave.svg");
-    height: 414px;
-    width: 15360px;
-}
-
+/* Footer */
 .vague {
     width: 100%;
-    position: absolute;
     display: block;
 }
 
-/* Footer */
 .footer-container {
     padding-top: 1rem;
     padding-bottom: 1rem;
