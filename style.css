@@ -294,7 +294,6 @@
     flex-direction: row;
     justify-content: center;
     padding-top: 3rem;
-    padding-bottom: 3rem;
 }
 
 #white-back {
@@ -381,4 +380,12 @@
 
     border: 1px solid #6C757D;
     border-radius: 0px;
+}
+
+/* Vague */
+
+.vague {
+    width: 100%;
+    position: absolute;
+    display: block;
 }
