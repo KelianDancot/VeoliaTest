@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VeoliaTest</title>
+
+  <!-- Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Icones Boostrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Vue.js -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="box-nav">
+      <div class="nav-links">
+        <img src="img/logo.png" width="190px" height="50px" class="img-veolia d-inline-block align-top" alt="">
+        <form class="searchbar" role="search">
+          <input class="searchbar-input" type="search" placeholder="Recherche" aria-label="Search">
+          <btn class="searchbar-btn bi bi-search"></btn>
+        </form>
+        <ul class="nav-elements">
+          <li><i class="bi bi-house" id="red"></i><a id="red">Accueil</a></li>
+          <li><i class="bi bi-box-seam"></i><a>Produits</a></li>
+          <li><i class="bi bi-receipt"></i><a>Documentation</a></li>
+          <li><i class="bi bi-person-circle"></i><a>Compte</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Carrousel -->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/img-carrousel1.png" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="title-carrousel">Ad tempus ex pacto</h5>
+          <p class="description">Vita est illis semper in fuga uxoresque mercenariae conductae.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/img-carrousel1.png" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="title-carrousel">Ad tempus ex pacto</h5>
+          <p class="description">Vita est illis semper in fuga uxoresque mercenariae conductae.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Actualités -->
+  <div class="box-nav">
+    <div class="box-actu">
+      <h3 class="title-actualites">Actualités du groupe Veolia</h3>
+      <div class="actu-elements">
+        <div class="actu-box">
+            <img src="img/article1.png" class="actu-img">
+            <div class="actu-text">
+              <h1>Augustum actus eius exaggerando</h1>
+              <p>Nam utilitates quidem etiam ab iis percipiuntur antiquior et pulchrior.</p>
+            </div>
+            <div class="meta-box">
+              <p><i class="bi bi-calendar-event"></i>01/01/2022</p>
+              <button>En savoir plus</button>
+            </div>
+        </div>
+        <div class="actu-box">
+            <img src="img/article2.png" class="actu-img">
+            <div class="actu-text">
+              <h1>Thalassius vero ea tempestate</h1>
+              <p>Recipiendisque meritis quod quisque minus ut dandis recipiendisque.</p>
+            </div>
+            <div class="meta-box">
+              <p><i class="bi bi-calendar-event"></i>17/12/2021</p>
+              <button>En savoir plus</button>
+            </div>
+        </div>
+        <div class="actu-box">
+            <img src="img/article3.png" class="actu-img">
+            <div class="actu-text">
+              <h1>Vexillum altius erigens posticas</h1>
+              <p>Utrum propter imbecillitatem atque inopiam posticas in regiam.</p>
+            </div>
+            <div class="meta-box">
+              <p><i class="bi bi-calendar-event"></i>05/11/2021</p>
+              <button>En savoir plus</button>
+            </div>
+        </div>
+        <div class="actu-box">
+            <img src="img/article4.png" class="actu-img">
+            <div class="actu-text">
+              <h1>Opposita instar rapidi fluminis</h1>
+              <p>Saepissime igitur mihi de amicitia cogitanti maxime fingerent quaedam.</p>
+            </div>
+            <div class="meta-box">
+              <p><i class="bi bi-calendar-event"></i>24/06/2021</p>
+              <button>En savoir plus</button>
+            </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+
+  <!-- Barre -->
+
+  <div class="box-barre">
+    <div class="text-box"><h1 class="barre-text">Le futur passe par l'écologie</h1></div>
+  </div>
+
+  <!-- Deux Cadres -->
+  <div class="cadre-container">
+    <div class="cadre-box" id="black-back">
+      <div class="cadre-textbox">
+        <h1 class="title-cadre" id="white">Inter quos eminebat notarius</h1>
+        <P class="content-cadre" id="white">Glabro quidam sub vultu latens, odorandi vias periculorum occultas perquam sagax. is in Brittanniam missus ut militares quosdam perduceret ausos conspirasse Magnentio. Hac ita persuasione reducti intra moenia bellatores obseratis undique portarum aditibus.</P>
+      </div>
+      <button class="btn-cadre" id="white-button">En savoir plus</button>
+    </div>
+    <div class="cadre-box" id="white-back">
+      <div class="cadre-textbox">
+        <h1 class="title-cadre" id="black">Post quorum necem nihilo</h1>
+        <P class="content-cadre" id="black">Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem.</P>
+      </div>
+      <button class="btn-cadre" id="black-button">En savoir plus</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <img src="svg/wave.svg" class="vague">
+    <div class="footer-container">
+      <div class="footer-list-container">
+        <div class="footer-list-box">
+          <h5 class="footer-title">Comite largitionum</h5>
+          <ul class="footer-list">
+            <li>Praefecto utcum ina</li>
+            <li>Crebro acciverat</li>
+            <li>Postquam abierat timor</li>
+            <li>Vero sic intellego</li>
+          </ul>
+        </div>
+        <div class="footer-list-box">
+          <h5 class="footer-title">Dotis nomine futura</h5>
+          <ul class="footer-list">
+            <li>Coniunx hastam et tabernaculum</li>
+            <li>Post statum diem si id elegerit</li>
+            <li>Incredibile est quo ardore</li>
+            <li>Venerem uterque solvitur</li>
+          </ul>
+        </div>
+        <div class="footer-list-box">
+          <h5 class="footer-title">Aleis certant turpi sono</h5>
+          <ul class="footer-list">
+            <li>Fragosis naribus introrsum</li>
+            <li>Reducto spiritu concrepantes</li>
+            <li>Mercenariae conductae ad</li>
+            <li>Singula narrare non refert</li>
+          </ul>
+        </div>
+        <div class="footer-list-box">
+          <h5 class="footer-title">Patres conscripti</h5>
+          <ul class="footer-list">
+            <li>Catulus in aedilitate</li>
+            <li>Glabro quidam sub</li>
+            <li>Paulatim illi subtraxit</li>
+            <li>Scutariis hentilibus</li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-copyright text-center border-top">Veolia demo test site | Lemon Interactive © 2022</p>
+    </div>
+  </footer>
+
+  <!-- Script Boostrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>
